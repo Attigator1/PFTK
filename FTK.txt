@@ -1,0 +1,5 @@
+Tool: FTK Imager
+Description: This is a software that is able to clone/image hard drives. It outputs the data into many different formats and it allows physical or logical copies. It can run with local or external storage devices. However, it works best when it has a physical connection to the hard drive.
+Review: This tool allows control over the imaging of a hard drive. With the differen functions, this is a smooth tool to use. For my toolkit, it will be stored in a external harddrive and it will be used on site. It does require a subsription.
+Usage: Once you select the drive, you can select the copy location. For most cases, It would be good to use a IDE bridge for read/write control over the hard drives. It is also important to wipe the hard drives that the clone will enter into.
+Sources: https://accessdata.com/products-services/forensic-toolkit-ftk/ftkimager
