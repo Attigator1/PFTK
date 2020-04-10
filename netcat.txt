@@ -1,0 +1,5 @@
+Tool: Netcat
+Description:  This is a networking utility tool that is able to read and write to network connections using TCP or UDP. It can act as a port scanner and it also deal with shells. This tool can also function as a listener and is compatible with other utilites (such as DD). 
+Review: This tool is very helpful for tasks that are networked or require such use. This is also able to run similar to wireshark as a packet sniffer.
+Usage: Usage depends on OS. Netcat has it's own commands with Linux while in Windows, it uses an exe with scripts. To run a port scan on an IP address, the simple command is nc -v -n [IP] [Ports]. For Windows machines, the command for a listener/relay is nc -l -p port] > [output file]. To send information, you need to have the utility to send information to the listener IP and port.
+Sources: http://netcat.sourceforge.net/ https://www.varonis.com/blog/netcat-commands/
