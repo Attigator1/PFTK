@@ -1,0 +1,5 @@
+Tool: Wireshark
+Description: This tool is one of the most used and advance network capturing tools in the market. It can run packet captures and sniffers. The tool can give information on the packet contents, status and meta data with great detail. 
+Review: This tool is one of my most used tools. It has so much flexibility as it can create pcap files, track files being transfered and it can give so much critical information on what is happening.
+Usage: The application is pretty easy to use. You can start a packet capute and filter out IPs and ports to what is needed. It can record the capture and it is able to give real time results for each packet. One thing to know is that Wireshark tends to capture everything on default so it is a good practice to make sure that unwanted connections do not happen during the capture. IE: make sure that you close browsers and applications that are not needed for the capture.
+Sources: https://www.wireshark.org/
