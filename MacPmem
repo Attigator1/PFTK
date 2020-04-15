@@ -1,0 +1,5 @@
+Tool: MacPmem
+Description:  This tool is majorly used for forensics for Mac based systems. This creates a copy of a Mac based OS memeory drive and is able to allow copies into new hard drives.
+Review: This tool is extremely helpful. It can give images of mac devices.
+Usage: Ownership needs to be root: wheel. $Sudo chown root: wheel MacPmem.kex. Have External drive ready for use. OSXPmem uses a kernel driver to capture the memory. Load it with kextload. $sudo kextload MacPmem.kext . With the kernel driver loaded the memory image can now be created. $Sudo ./osxpmem –output case_image.aff4 . With the memory image created the kernel driver can be unloaded. $Sudo kextunload MacPmem.kext . After you have created the disk image it is good practice to collect information about the Mac the image was created on. The following two commands will do that. $sw_vers > osxbuildinfo.txt .
+Sources: https://github.com/google/rekall/releases/download/v1.5.1/osxpmem-2.1.post4.zip
