@@ -1,0 +1,5 @@
+Tool: DD
+Description: DD is a command-line utility for Unix and Unix-like operating systems whose primary purpose is to convert and copy files. It is mostly used for storage drives and it is considered the safest option for such actions.
+Review: It is a simple tool that comes with linux distributions. It is also easy to use and it is very flexible for use.
+Usage: If you want to back up a hard disk, a sample command for that would be dd if = /dev/sda of = /dev/sdb . DD is also good at creating images and the command for that is dd if = /dev/hda of = ~/hdadisk.img . If you need to restore a hard disk, a command that would work would be dd if = hdadisk.img of = /dev/hdb . It is a good practice to use sudo for DD.
+Sources: https://linuxconfig.org/how-dd-command-works-in-linux-with-examples
