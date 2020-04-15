@@ -1,0 +1,5 @@
+Tool: Cutter
+Description: This tool is used for the disassembly of executables and files. It also acts as a debugger for writing or changing excecutables.
+Review: The tool is good for reverse enginnering files and getting more in depth look on how the operate and if they have any malicious activity. I personally don't find the debugger useful at the moment as it is confusing to use and is still a work in progress. I do like how they have graphs to show how the different functions are connected.
+Usage: It's pretty simple UI over all. They have a list of functions that you can refer to and jump to. They have grpahs that so the flow of the fucntions to eachother. There is also a decompiler that converets the assembly to readable code. They also provide a hex dump of the entire thing.
+Sources: https://cutter.re/docs/
