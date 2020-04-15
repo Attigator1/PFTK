@@ -1,0 +1,5 @@
+Tool: snort
+Description: This tool is really good at packet sniffing. It has many functionalities in regards to parsing through many different packets.
+Review: snort can do a live packet capture or can anaylize a pcap file. It is able to see what files are being transfered and it can find malicous connections.
+Usage: snoirt is able to read from pcap files and this is the command: snort -r <pcap file> . To analiyze the file, the command is snort -r <pcap file> -c <output location.
+Sources: https://snort-org-site.s3.amazonaws.com/production/document_files/files/000/000/249/original/snort_manual.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIXACIED2SPMSC7GA%2F20200415%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200415T174902Z&X-Amz-Expires=172800&X-Amz-SignedHeaders=host&X-Amz-Signature=94c64522281e40151a051dc51cdcb910c7fe320a03a1da6d825c5d18b1f42091
